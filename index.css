@@ -1,0 +1,86 @@
+body, h1, h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin-left: 2em;
+}
+
+header {
+    margin-top: 2em;
+    position: relative;
+    height: 20em;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+}
+header h1 {
+    font-weight: 900;
+    border-bottom: 0.1em solid white;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+}
+
+.mission {
+    background-color: #FFE964;
+    text-align: center;
+}
+h2 {
+    padding: 2em 0;
+    font-size: 2em;
+    font-weight: 900;
+}
+.mission p {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+.about {
+    text-align:left;
+}
+.about_middle {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.team {
+    background-color: #FF523D;
+    color: white;
+}
+.team_middle {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+.profil {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.photo {
+    margin-bottom: 1em;
+    width: 10em;
+}
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #223C88 ;
+    color: white;
+}
